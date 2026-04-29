@@ -135,9 +135,7 @@ const Page = () => {
                   className="w-fit mt-auto"
                   type={`button`}
                   onClick={() => {
-                    append({
-                      name: "",
-                    });
+                    remove(index);
                   }}
                 >
                   <Trash className="w-4 h-4" />
